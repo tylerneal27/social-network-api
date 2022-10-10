@@ -1,12 +1,11 @@
 {
   "name": "social-network-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Social network backend",
+  "main": "server.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index",
-    "seed": "node utils/seed",
+    "start": "node server",
+    "dev": "nodemon server",
     "heroku-postbuild": "node utils/seed.js"
   },
   "dependencies": {
